@@ -1,9 +1,9 @@
 # k6-load-test
 k6로 부하 테스트를 수행해보자
 
-1. add `env.js`
+1. add `env.js` to this project root directory
 ``` JavaScript
-export const url = "http://YOUR_API_URL"
+export const url = "http://${YOUR_API_URL}"
 export const jwt = "${YOUR_JWT_TOKEN}"
 
 ```
